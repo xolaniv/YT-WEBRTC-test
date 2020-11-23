@@ -1,0 +1,6 @@
+framework module Pods_YT_test {
+  umbrella header "Pods-YT-test-umbrella.h"
+
+  export *
+  module * { export * }
+}
