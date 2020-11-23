@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'YT-Test-app' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+   pod 'GoogleWebRTC'
+
+  # Pods for YT-Test-app
+
+  target 'YT-Test-appTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'YT-Test-appUITests' do
+    # Pods for testing
+  end
+
+end
